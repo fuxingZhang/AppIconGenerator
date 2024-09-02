@@ -1,5 +1,5 @@
 //
-//  AppIconView.swift
+//  AppIcon.swift
 //  AppIconGenerator
 //
 //  Created by zhangfuxing on 2024/9/1.
@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct AppIconView: View {
+struct AppIcon: View {
     var body: some View {
         VStack(spacing: 0) {
             Image(systemName: "map.circle.fill")
@@ -36,7 +36,7 @@ struct AppIconView: View {
     }
 }
 
-struct AppIconViewWhite: View {
+struct AppIconWhite: View {
     var body: some View {
         VStack(spacing: 0) {
             Image(systemName: "map.circle.fill")
@@ -64,10 +64,10 @@ struct AppIconViewWhite: View {
     }
 }
 
-#Preview("AppIconView") {
-    AppIconView()
+#Preview("AppIcon") {
+    AppIcon()
 }
 
-#Preview("AppIconViewWhite") {
-    AppIconViewWhite()
+#Preview("AppIconWhite") {
+    AppIconWhite()
 }

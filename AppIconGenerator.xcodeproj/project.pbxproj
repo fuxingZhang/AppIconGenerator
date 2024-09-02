@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8089BD32C85CD670050AFA9 /* WcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8089BD22C85CD670050AFA9 /* WcView.swift */; };
+		F8089BD32C85CD670050AFA9 /* WcIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8089BD22C85CD670050AFA9 /* WcIcon.swift */; };
+		F8089BD52C85CDB20050AFA9 /* StockIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8089BD42C85CDB20050AFA9 /* StockIcon.swift */; };
 		F847028B2C8438C000F1A8CD /* AppIconGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F847028A2C8438C000F1A8CD /* AppIconGeneratorApp.swift */; };
 		F847028D2C8438C000F1A8CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F847028C2C8438C000F1A8CD /* ContentView.swift */; };
 		F847028F2C8438C300F1A8CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F847028E2C8438C300F1A8CD /* Assets.xcassets */; };
 		F84702922C8438C300F1A8CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84702912C8438C300F1A8CD /* Preview Assets.xcassets */; };
-		F847029A2C843B9A00F1A8CD /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84702992C843B9A00F1A8CD /* AppIconView.swift */; };
+		F847029A2C843B9A00F1A8CD /* AppIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84702992C843B9A00F1A8CD /* AppIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F8089BD22C85CD670050AFA9 /* WcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WcView.swift; sourceTree = "<group>"; };
+		F8089BD22C85CD670050AFA9 /* WcIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WcIcon.swift; sourceTree = "<group>"; };
+		F8089BD42C85CDB20050AFA9 /* StockIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockIcon.swift; sourceTree = "<group>"; };
 		F84702872C8438C000F1A8CD /* AppIconGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIconGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F847028A2C8438C000F1A8CD /* AppIconGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconGeneratorApp.swift; sourceTree = "<group>"; };
 		F847028C2C8438C000F1A8CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F847028E2C8438C300F1A8CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F84702912C8438C300F1A8CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F84702992C843B9A00F1A8CD /* AppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconView.swift; sourceTree = "<group>"; };
+		F84702992C843B9A00F1A8CD /* AppIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,8 +41,9 @@
 		F8089BD12C85CD500050AFA9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F84702992C843B9A00F1A8CD /* AppIconView.swift */,
-				F8089BD22C85CD670050AFA9 /* WcView.swift */,
+				F84702992C843B9A00F1A8CD /* AppIcon.swift */,
+				F8089BD22C85CD670050AFA9 /* WcIcon.swift */,
+				F8089BD42C85CDB20050AFA9 /* StockIcon.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,10 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8089BD32C85CD670050AFA9 /* WcView.swift in Sources */,
+				F8089BD32C85CD670050AFA9 /* WcIcon.swift in Sources */,
 				F847028D2C8438C000F1A8CD /* ContentView.swift in Sources */,
+				F8089BD52C85CDB20050AFA9 /* StockIcon.swift in Sources */,
 				F847028B2C8438C000F1A8CD /* AppIconGeneratorApp.swift in Sources */,
-				F847029A2C843B9A00F1A8CD /* AppIconView.swift in Sources */,
+				F847029A2C843B9A00F1A8CD /* AppIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

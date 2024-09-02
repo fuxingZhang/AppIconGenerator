@@ -1,5 +1,5 @@
 //
-//  WcView.swift
+//  WcIcon.swift
 //  AppIconGenerator
 //
 //  Created by zhangfuxing on 2024/9/2.
@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct WcView: View {
+struct WcIcon: View {
     var body: some View {
         VStack(spacing: 0) {
             Image(systemName: "figure.dress.line.vertical.figure")
@@ -36,7 +36,7 @@ struct WcView: View {
     }
 }
 
-struct WcViewWhite: View {
+struct WcIconWhite: View {
     var body: some View {
         VStack(spacing: 0) {
             Image(systemName: "figure.dress.line.vertical.figure")
@@ -64,10 +64,10 @@ struct WcViewWhite: View {
     }
 }
 
-#Preview("WcView") {
-    WcView()
+#Preview("WcIcon") {
+    WcIcon()
 }
 
-#Preview("WcViewWhite") {
-    WcViewWhite()
+#Preview("WcIconWhite") {
+    WcIconWhite()
 }
