@@ -29,6 +29,9 @@ struct ContentView: View {
             } else {
                 Text("Tap the button to generate an image")
                 Button("Generate Image") {
+                   // self.generateImage(StockCircle())
+                   // self.generateImage(StockCircleWhite())
+                    
                     generatedImage = self.generateImage(StockIcon())
                     generatedImage2 = self.generateImage(StockIconWhite())
                 }
