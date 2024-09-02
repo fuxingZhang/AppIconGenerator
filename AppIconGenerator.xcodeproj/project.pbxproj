@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8089BD32C85CD670050AFA9 /* WcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8089BD22C85CD670050AFA9 /* WcView.swift */; };
 		F847028B2C8438C000F1A8CD /* AppIconGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F847028A2C8438C000F1A8CD /* AppIconGeneratorApp.swift */; };
 		F847028D2C8438C000F1A8CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F847028C2C8438C000F1A8CD /* ContentView.swift */; };
 		F847028F2C8438C300F1A8CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F847028E2C8438C300F1A8CD /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F8089BD22C85CD670050AFA9 /* WcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WcView.swift; sourceTree = "<group>"; };
 		F84702872C8438C000F1A8CD /* AppIconGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIconGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F847028A2C8438C000F1A8CD /* AppIconGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconGeneratorApp.swift; sourceTree = "<group>"; };
 		F847028C2C8438C000F1A8CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8089BD12C85CD500050AFA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F84702992C843B9A00F1A8CD /* AppIconView.swift */,
+				F8089BD22C85CD670050AFA9 /* WcView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F847027E2C8438C000F1A8CD = {
 			isa = PBXGroup;
 			children = (
@@ -53,11 +64,11 @@
 		F84702892C8438C000F1A8CD /* AppIconGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				F8089BD12C85CD500050AFA9 /* View */,
 				F847028A2C8438C000F1A8CD /* AppIconGeneratorApp.swift */,
 				F847028C2C8438C000F1A8CD /* ContentView.swift */,
 				F847028E2C8438C300F1A8CD /* Assets.xcassets */,
 				F84702902C8438C300F1A8CD /* Preview Content */,
-				F84702992C843B9A00F1A8CD /* AppIconView.swift */,
 			);
 			path = AppIconGenerator;
 			sourceTree = "<group>";
@@ -140,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8089BD32C85CD670050AFA9 /* WcView.swift in Sources */,
 				F847028D2C8438C000F1A8CD /* ContentView.swift in Sources */,
 				F847028B2C8438C000F1A8CD /* AppIconGeneratorApp.swift in Sources */,
 				F847029A2C843B9A00F1A8CD /* AppIconView.swift in Sources */,
