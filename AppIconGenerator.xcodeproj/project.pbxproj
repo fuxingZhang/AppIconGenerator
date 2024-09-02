@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F8089BD32C85CD670050AFA9 /* WcIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8089BD22C85CD670050AFA9 /* WcIcon.swift */; };
 		F8089BD52C85CDB20050AFA9 /* StockIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8089BD42C85CDB20050AFA9 /* StockIcon.swift */; };
+		F8089BD92C85EB9F0050AFA9 /* StockCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8089BD82C85EB9F0050AFA9 /* StockCircle.swift */; };
 		F847028B2C8438C000F1A8CD /* AppIconGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F847028A2C8438C000F1A8CD /* AppIconGeneratorApp.swift */; };
 		F847028D2C8438C000F1A8CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F847028C2C8438C000F1A8CD /* ContentView.swift */; };
 		F847028F2C8438C300F1A8CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F847028E2C8438C300F1A8CD /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		F8089BD22C85CD670050AFA9 /* WcIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WcIcon.swift; sourceTree = "<group>"; };
 		F8089BD42C85CDB20050AFA9 /* StockIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockIcon.swift; sourceTree = "<group>"; };
+		F8089BD82C85EB9F0050AFA9 /* StockCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCircle.swift; sourceTree = "<group>"; };
 		F84702872C8438C000F1A8CD /* AppIconGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIconGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F847028A2C8438C000F1A8CD /* AppIconGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconGeneratorApp.swift; sourceTree = "<group>"; };
 		F847028C2C8438C000F1A8CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 				F84702992C843B9A00F1A8CD /* AppIcon.swift */,
 				F8089BD22C85CD670050AFA9 /* WcIcon.swift */,
 				F8089BD42C85CDB20050AFA9 /* StockIcon.swift */,
+				F8089BD82C85EB9F0050AFA9 /* StockCircle.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			files = (
 				F8089BD32C85CD670050AFA9 /* WcIcon.swift in Sources */,
 				F847028D2C8438C000F1A8CD /* ContentView.swift in Sources */,
+				F8089BD92C85EB9F0050AFA9 /* StockCircle.swift in Sources */,
 				F8089BD52C85CDB20050AFA9 /* StockIcon.swift in Sources */,
 				F847028B2C8438C000F1A8CD /* AppIconGeneratorApp.swift in Sources */,
 				F847029A2C843B9A00F1A8CD /* AppIcon.swift in Sources */,

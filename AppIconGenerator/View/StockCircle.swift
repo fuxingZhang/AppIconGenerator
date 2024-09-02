@@ -1,5 +1,5 @@
 //
-//  StockIcon.swift
+//  StockCircle.swift
 //  AppIconGenerator
 //
 //  Created by zhangfuxing on 2024/9/2.
@@ -8,14 +8,14 @@
 import Foundation
 import SwiftUI
 
-struct StockIcon: View {
+struct StockCircle: View {
     //let accentColor = Color(red: 107/255, green: 115/255, blue: 219/255)
     
     var body: some View {
         VStack(spacing: 0) {
             Spacer()
             
-            Image(systemName: "chart.line.uptrend.xyaxis")
+            Image(systemName: "chart.line.uptrend.xyaxis.circle")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 300, height: 300)
@@ -32,14 +32,13 @@ struct StockIcon: View {
     }
 }
 
-struct StockIconWhite: View {
+struct StockCircleWhite: View {
     //let accentColor = Color(red: 107/255, green: 115/255, blue: 219/255)
-    
     var body: some View {
         VStack(spacing: 0) {
             Spacer()
-            
-            Image(systemName: "chart.line.uptrend.xyaxis")
+
+            Image(systemName: "chart.line.uptrend.xyaxis.circle")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 300, height: 300)
@@ -58,9 +57,9 @@ struct StockIconWhite: View {
 }
 
 #Preview("StockIcon") {
-    StockIcon()
+    StockCircle()
 }
 
 #Preview("StockIconWhite") {
-    StockIconWhite()
+    StockCircleWhite()
 }
